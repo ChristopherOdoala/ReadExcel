@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadExcel", "ReadExcel\ReadExcel.csproj", "{1C7FDC7C-BD50-466E-AA55-457F6C3AE40D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadFileConsole", "ReadFileConsole\ReadFileConsole.csproj", "{49371C2C-308D-407B-A83D-7817A0E4A1C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C7FDC7C-BD50-466E-AA55-457F6C3AE40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7FDC7C-BD50-466E-AA55-457F6C3AE40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7FDC7C-BD50-466E-AA55-457F6C3AE40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7FDC7C-BD50-466E-AA55-457F6C3AE40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49371C2C-308D-407B-A83D-7817A0E4A1C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49371C2C-308D-407B-A83D-7817A0E4A1C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49371C2C-308D-407B-A83D-7817A0E4A1C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49371C2C-308D-407B-A83D-7817A0E4A1C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BBC1717-868D-46E3-959E-23C6AFCDAE8C}
+	EndGlobalSection
+EndGlobal
