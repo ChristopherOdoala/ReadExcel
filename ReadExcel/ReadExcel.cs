@@ -11,11 +11,10 @@ namespace ReadExcel
 {
     public class ReadExcel : IReadExcel
     {
-        public void ReadFile()
+        public string ReadFile()
         {
             var pathToExcel = @"C:\Users\Developer1\source\repos\ReadExcel\file.xlsx";
             var sheetName = "Test";
-            var destinationPath = @"C:\Users\Developer1\source\repos\ReadExcel\file.json";
 
             //Use this connection string if you have Office 2007+ drivers installed and 
             //your data is saved in a .xlsx file
@@ -48,9 +47,15 @@ namespace ReadExcel
                     var json = JsonConvert.SerializeObject(query);
 
                     //Write the file to the destination path    
-                    File.WriteAllText(destinationPath, json);
+                    //File.WriteAllText(destinationPath, json);
+                    return json;
                 }
             }
+        }
+
+        public void WriteExcel()
+        {
+           
         }
     }
 }

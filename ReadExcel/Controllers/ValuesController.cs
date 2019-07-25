@@ -21,10 +21,8 @@ namespace ReadExcel.Controllers
         // GET api/values
         public HttpResponseMessage Get()
         {
-            readExcel.ReadFile();
-            string allText = System.IO.File.ReadAllText(@"C:\Users\Developer1\source\repos\ReadExcel\file.json");
-
-            object jsonObject = JsonConvert.DeserializeObject(allText);
+            var json = readExcel.ReadFile();
+            object jsonObject = JsonConvert.DeserializeObject(json);
             return Request.CreateResponse(HttpStatusCode.OK, jsonObject);
         }
 

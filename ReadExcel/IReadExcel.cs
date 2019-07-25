@@ -2,6 +2,6 @@
 {
     public interface IReadExcel
     {
-        void ReadFile();
+        string ReadFile();
     }
 }
